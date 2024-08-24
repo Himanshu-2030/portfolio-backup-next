@@ -1,0 +1,145 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 100%;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+    width: 6rem;
+  }
+  .timeline {
+    max-width: 420px;
+}
+.gif-container{
+  padding-top: 30px;
+  height: 220px;
+}
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .timeline {
+    padding: 10px 0; /* Reduce padding for smaller screens */
+    max-width: 100%; /* Make the timeline full width */
+    margin: 0; /* Remove margin to fit the screen */
+  }
+
+  .timeline-item {
+    margin: 22px 0; /* Adjust margin for better spacing */
+    padding-left: 10px; /* Adjust for dot alignment on smaller screens */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+    max-width: 90%;
+  }
+
+  .timeline-marker {
+    left: -10px; /* Adjust left positioning for smaller screens */
+    width: 10px; /* Smaller dot size */
+    height: 10px; /* Smaller dot size */
+    box-shadow: 0 0 0 3px #f4f4f4; /* Adjust shadow size */
+    top: 50%;
+  }
+
+  .timeline-content {
+    padding: 8px 5px; /* Reduce padding for smaller screens */
+    border-radius: 0.5rem; /* Smaller border radius */
+  }
+
+  .timeline-content h2 {
+    font-size: 1em; /* Adjust font size for headings */
+  }
+
+  .timeline-content p {
+    font-size: 0.9em; /* Adjust font size for paragraphs */
+  }
+
+  .timeline-date {
+    font-size: 0.8em; /* Adjust font size for dates */
+  }
+}
